@@ -21,7 +21,7 @@ return new class extends Migration
             $table->time('departure_time');
             $table->time('arrival_time');
             $table->integer('train_code');
-            $table->tinyInteger('total_wagons');
+            $table->integer('total_wagons');
             $table->boolean('on_time');
             $table->boolean('deleted');
             $table->timestamps();
